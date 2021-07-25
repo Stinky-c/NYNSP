@@ -45,6 +45,9 @@ events.listen('recipes', event => {
         //'forbidden_arcanus:jei.apply_indestructible_enchantment.item.tetra.magmatic_cell',
         'bloodmagic:altar/soul_snare',
         'astralsorcery:altar/altar_attunement',
+
+        //Applied Energistics 2
+        'appliedenergistics2:decorative/quartz_glass',
     ];
     ID.forEach(iR => {
         event.remove({
