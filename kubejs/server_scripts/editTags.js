@@ -10,10 +10,10 @@ console.info('Server: online')
 
 //block tag
 onEvent('block.tags', event => {
-	const removeBlock = (tag, block) => {
+	function removeBlock (tag, block) {
 		event.remove(tag,block)
 	}
-	const addBlock = (tag, block) => {
+	function addBlock (tag, block) {
 		event.add(tag,block)
 	}
 	//why? because i wanted to
@@ -29,10 +29,10 @@ onEvent('block.tags', event => {
 //item tag
 onEvent('item.tags', event => {
 	//kekW
-	const removeItem = (tag, item) => {
+	function removeItem (tag, item) {
 		event.remove(tag,item)
 	}
-	const addItem = (tag, item) => {
+	function addItem (tag, item) {
 		event.add(tag,item)
 	}
 	//still wanted to

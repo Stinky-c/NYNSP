@@ -39,8 +39,7 @@ onEvent('recipes',event =>{
         shapeless('minecraft:charcoal',1,Item.of('kubejs:tiny_charcoal',8))
         shapeless('kubejs:elite_resonating_radiant_control_circuit',1,['mekanism:elite_control_circuit','astralsorcery:resonating_gem','create:refined_radiance'])
         shapeless('kubejs:prepared_dielectric_paste',1,[Item.of('minecraft:coal', 3),Item.of('minecraft:clay_ball', 2)])
-        shapeless('kubejs:raw_logistical_processor',1,
-        ['refinedstorage:processor_binding','appliedenergistics2:purified_certus_quartz_crystal','refinedstorage:silicon','minecraft:redstone'])
+        shapeless('kubejs:raw_logistical_processor',1,['refinedstorage:processor_binding','appliedenergistics2:purified_certus_quartz_crystal','refinedstorage:silicon','minecraft:redstone'])
     //shaped
         shaped('kubejs:steel_gear',1,[
             ' S ',

@@ -320,8 +320,13 @@
 			}]
 		},
 		{
-			x: -4.0d,
-			y: 0.5d,
+			x: -7.5d,
+			y: -2.0d,
+			description: [
+				"Finding this plant is hard",
+				"Just find the biome and get a free one"
+			],
+			dependencies: ["75E82C43164C8352"],
 			id: "2146F36D248EBE7F",
 			tasks: [{
 				id: "18661F895B5457E5",
@@ -359,6 +364,16 @@
 						Damage: 0
 					}
 				}
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -3.0d,
+			id: "75E82C43164C8352",
+			tasks: [{
+				id: "6B870FAAE6975FCF",
+				type: "checkmark",
+				title: "Can't Find certain items?"
 			}]
 		}
 	]
