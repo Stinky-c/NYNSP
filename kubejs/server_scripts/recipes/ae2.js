@@ -21,6 +21,8 @@ onEvent('recipes',event =>{
     const {mixing,filling,mechanical_crafting,splashing}= event.recipes.create
     //recipes
     event.replaceInput({mod: 'appliedenergistics2'}, '#forge:ingots/iron', '#forge:ingots/steel')
+    event.replaceInput({},'appliedenergistics2:formation_core', 'refinedstorage:construction_core')
+    event.replaceInput({},'appliedenergistics2:annihilation_core', 'refinedstorage:destruction_core')
     event.replaceInput({},'appliedenergistics2:calculation_processor','kubejs:logistical_processor')
     event.replaceInput({},'appliedenergistics2:engineering_processor','refinedstorage:advanced_processor')
     event.replaceInput({},'appliedenergistics2:logic_processor','refinedstorage:improved_processor')
@@ -86,4 +88,6 @@ onEvent('recipes',event =>{
         C: 'mekanism:advanced_control_circuit'
     })
     
+    event.recipes.mekanism.combining('appliedenergistics2:fluix_covered_cable', 'appliedenergistics2:fluix_glass_cable', 'thermal:cured_rubber').id('kjs_appliedenergistics2:covered_cable')
+    mixing('3x appliedenergistics2:sky_dust', ['#forge:dusts/coal', '#forge:dusts/coal', '#forge:dusts/diamond']).id('kjs_appliedenergistics2:sky_dust')
 })

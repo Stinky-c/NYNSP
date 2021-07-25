@@ -48,6 +48,7 @@ events.listen('recipes', event => {
 
         //Applied Energistics 2
         'appliedenergistics2:decorative/quartz_glass',
+        'appliedenergistics2:network/cables/covered_fluix',
     ];
     ID.forEach(iR => {
         event.remove({
