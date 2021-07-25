@@ -1,0 +1,282 @@
+{
+	id: "394990046E1F87C7",
+	group: "",
+	order_index: 1,
+	filename: "simple_progession",
+	title: "Simple Progession",
+	icon: "minecraft:crafting_table",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 11.5d,
+			y: 4.0d,
+			id: "491FA552FB00C776",
+			tasks: [{
+				id: "4B70346D26E33B26",
+				type: "checkmark",
+				title: "The Magic side"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 4.0d,
+			id: "42FD5915B22D41E1",
+			tasks: [{
+				id: "27647A1E8E815B0A",
+				type: "checkmark",
+				title: "The Tech Side"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 5.0d,
+			dependencies: ["491FA552FB00C776"],
+			id: "724C7406563F2E24",
+			tasks: [{
+				id: "0C3B986ED84BC1D8",
+				type: "item",
+				item: "botania:mana_pool"
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 6.0d,
+			dependencies: ["724C7406563F2E24"],
+			id: "2C74321F461B0CAD",
+			tasks: [{
+				id: "64D56FBC49504A1F",
+				type: "item",
+				item: "botania:runic_altar"
+			}]
+		},
+		{
+			title: "Simple Runes",
+			x: 11.5d,
+			y: 7.0d,
+			dependencies: ["2C74321F461B0CAD"],
+			id: "26E3975413AA9F2F",
+			tasks: [
+				{
+					id: "37DA4CD72127F4D5",
+					type: "item",
+					item: "botania:rune_earth"
+				},
+				{
+					id: "45375406496A5C79",
+					type: "item",
+					item: "botania:rune_air"
+				},
+				{
+					id: "63D68CB92F7F8279",
+					type: "item",
+					item: "botania:rune_water"
+				},
+				{
+					id: "55E6ADC76E48500F",
+					type: "item",
+					item: "botania:rune_fire"
+				},
+				{
+					id: "1DEC28E65919D169",
+					type: "item",
+					item: "botania:livingrock",
+					count: 4L
+				}
+			]
+		},
+		{
+			x: 11.5d,
+			y: 8.0d,
+			dependencies: ["26E3975413AA9F2F"],
+			id: "447F23E5A3A30300",
+			tasks: [{
+				id: "7376FEB8980CF9CA",
+				type: "item",
+				item: "bloodmagic:altar"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 5.0d,
+			dependencies: ["42FD5915B22D41E1"],
+			id: "57EC14E99BD58A03",
+			tasks: [{
+				id: "6BBAE74F4D9F7B68",
+				type: "item",
+				item: "create:andesite_alloy"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 6.0d,
+			dependencies: ["57EC14E99BD58A03"],
+			id: "31F0CE49DAC935AB",
+			tasks: [{
+				id: "7A7EBA2BAA656116",
+				type: "item",
+				item: "create:mechanical_press"
+			}]
+		},
+		{
+			x: 14.0d,
+			y: 7.0d,
+			dependencies: ["31F0CE49DAC935AB"],
+			id: "114AEDD874094670",
+			tasks: [{
+				id: "11773920137BC057",
+				type: "item",
+				item: "create:mechanical_mixer"
+			}]
+		},
+		{
+			icon: "immersiveengineering:blast_furnace",
+			x: 14.0d,
+			y: 8.0d,
+			dependencies: ["114AEDD874094670"],
+			id: "2CA632DA10EB7733",
+			tasks: [
+				{
+					id: "38D771EAD64715D1",
+					type: "item",
+					item: "immersiveengineering:blastbrick"
+				},
+				{
+					id: "0D5BD518B553C397",
+					type: "item",
+					item: {
+						id: "immersiveengineering:hammer",
+						Count: 1b,
+						tag: {
+							Damage: 0,
+							AS_Amulet_Holder: [I;
+								426637396,
+								1558333407,
+								-1829425942,
+								2084083085
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 14.0d,
+			y: 9.0d,
+			dependencies: ["2CA632DA10EB7733"],
+			id: "49F2946026FE539F",
+			tasks: [{
+				id: "383915529B6BA3C8",
+				type: "item",
+				item: "mekanism:ingot_steel"
+			}]
+		},
+		{
+			icon: "mekanism:steel_casing",
+			x: 14.0d,
+			y: 10.0d,
+			dependencies: ["49F2946026FE539F"],
+			id: "6B809626B8492443",
+			tasks: [
+				{
+					id: "7AD614B6D2FC2136",
+					type: "item",
+					item: "mekanism:steel_casing"
+				},
+				{
+					id: "0C6E91B5A29AB1A5",
+					type: "item",
+					item: "mekanism:metallurgic_infuser"
+				}
+			]
+		},
+		{
+			x: 10.5d,
+			y: 8.0d,
+			dependencies: [
+				"31F0CE49DAC935AB",
+				"447F23E5A3A30300"
+			],
+			id: "49C80BD604F9BCAE",
+			tasks: [{
+				id: "7EEB53908054BEE4",
+				type: "item",
+				item: "torchmaster:feral_flare_lantern"
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 7.0d,
+			dependencies: ["114AEDD874094670"],
+			id: "43F8320590DB306C",
+			tasks: [{
+				id: "0B117F2DB35C49C7",
+				type: "item",
+				item: "create:brass_ingot"
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 9.0d,
+			dependencies: ["447F23E5A3A30300"],
+			id: "36944E1AD9F68157",
+			tasks: [{
+				id: "1D88428F9D733C53",
+				type: "item",
+				item: "bloodmagic:soulsnare"
+			}]
+		},
+		{
+			x: 16.0d,
+			y: 7.0d,
+			dependencies: ["43F8320590DB306C"],
+			id: "3E162A77F4C798CC",
+			tasks: [{
+				id: "2197D037403A636E",
+				type: "item",
+				item: "create:mechanical_crafter"
+			}]
+		},
+		{
+			x: 17.0d,
+			y: 7.0d,
+			dependencies: [
+				"50EBED39EA423759",
+				"3E162A77F4C798CC"
+			],
+			id: "12519966F6599F60",
+			tasks: [{
+				id: "7E13AED893AE1F68",
+				type: "item",
+				item: "torchmaster:megatorch"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 9.0d,
+			dependencies: ["36944E1AD9F68157"],
+			id: "50EBED39EA423759",
+			tasks: [{
+				id: "6BCACE9CC2CBDD4D",
+				type: "item",
+				item: {
+					id: "bloodmagic:basemonstersoul",
+					Count: 1b,
+					tag: {
+						souls: 5.0d
+					}
+				}
+			}]
+		},
+		{
+			x: 11.5d,
+			y: 9.0d,
+			dependencies: ["447F23E5A3A30300"],
+			id: "66E5187C196DA577",
+			tasks: [{
+				id: "1B034B00816C455A",
+				type: "item",
+				item: "astralsorcery:wand"
+			}]
+		}
+	]
+}

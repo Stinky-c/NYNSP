@@ -1,0 +1,116 @@
+{
+	id: "1B46A8AFD3662FF3",
+	order_index: 1,
+	title: "Blocks",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "immersiveengineering:treated_wood_horizontal",
+			count: 64
+		},
+		{
+			item: "botania:vivid_seeds",
+			count: 16
+		},
+		{
+			item: "astralsorcery:marble_bricks",
+			count: 32
+		},
+		{
+			item: "bloodmagic:woodbrickpath",
+			count: 32
+		},
+		{
+			item: "mekanismadditions:purple_plastic",
+			count: 32
+		},
+		{
+			item: "quark:magma_bricks",
+			count: 32
+		},
+		{
+			item: "quark:cobblestone_bricks",
+			count: 64
+		},
+		{
+			item: "minecraft:spruce_sapling",
+			count: 16
+		},
+		{
+			item: "byg:aspen_sapling",
+			count: 16
+		},
+		{
+			item: "minecraft:quartz_bricks",
+			count: 32
+		},
+		{
+			item: "minecraft:bookshelf",
+			count: 16
+		},
+		{
+			item: "minecraft:spruce_planks",
+			count: 64
+		},
+		{
+			item: "minecraft:dark_oak_log",
+			count: 64
+		},
+		{
+			item: "minecraft:spruce_log",
+			count: 64
+		},
+		{
+			item: "botania:mana_glass",
+			count: 64
+		},
+		{
+			item: "minecraft:dirt",
+			count: 32
+		},
+		{
+			item: "minecraft:andesite",
+			count: 32
+		},
+		{
+			item: "minecraft:stone",
+			count: 32
+		},
+		{
+			item: "minecraft:white_concrete",
+			count: 32
+		},
+		{
+			item: "minecraft:black_concrete",
+			count: 32
+		},
+		{
+			item: "minecraft:blackstone",
+			count: 64
+		},
+		{
+			item: "minecraft:basalt",
+			count: 64
+		},
+		{
+			item: "minecraft:dark_prismarine",
+			count: 32
+		},
+		{
+			item: "create:copper_shingles",
+			count: 32
+		},
+		{
+			item: "create:framed_glass",
+			count: 64
+		},
+		{
+			item: "byg:soapstone",
+			count: 64
+		},
+		{
+			item: "byg:aspen_log",
+			count: 64
+		}
+	]
+}

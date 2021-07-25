@@ -1,0 +1,162 @@
+change log v3
+
+cleaned one script more to come
+
+culinary added (why would I gate sandwhiches?)
+
+mahou tusukai added
+you get to keep your default config, Im not trying to understand that
+
+forbidden added
+adds world gen 
+
+natures aura added
+¯\_(ツ)_/¯
+
+Astral Sorcery added
+also adds world gen
+
+blood magic added
+hah you thought this had world gen! no? ugg
+
+botania and mythic botany added
+you get the idea, world gen is common now (might not keep the alfhiem dim)
+
+added iron nuggie 
+(currently hard to craft)
+
+chnaged progession 
+again
+
+CC:tweaked added
+
+terraforged added
+little to no normal stone generates
+
+dungeon crawl added
+
+cyclic added and gated
+
+mining gadgets added
+
+iron furnaces added
+
+powah added and gated
+
+--------------------------------------------------------------------------
+
+fixes
+
+fixed silver and nickel both spawning
+
+--------------------------------------------------------------------------
+reverted for export
+new mods: configs and recipes need to change
+
+twlight forest planned
+
+
+
+--------------------------------------------------------------------------
+ideas
+
+progression made so nether is not required?
+
+extract glowstone from crying obsidian
+
+use inscriber for runes? /scrapped?
+rune press?
+
+quests: offer stonecutter or earthpiercer
+
+sticks from logs
+
+cosmictic armor
+
+--------------------------------------------------------------------------
+to work on
+
+quests
+
+fix the smelting function
+
+fix tetra wooden hammers /done
+
+do a better job at exporting ex: not saving client configs /done-ish
+
+tiny coal piece /done
+
+powah? /added
+rats?
+pedestals?
+mob grinding utils?
+modular routers?
+mining gadgets? /done
+int dyn?
+ice and fire?
+env tech?
+Cyclic? /done
+Bees?
+compact machines?
+cable tiers?
+C&B?
+pneumatic craft?
+botany pots?
+PSI?
+iron furnaces? /done
+farmers delight?
+bigger reactors?
+spice of life carrot
+trash slot
+
+need to add and gate AE2 /done
+
+igneous extruder recipes / done
+
+hide facades in jei /done
+
+find wireless crafting for ae2
+
+finish gating ae2 and working on new processor (logistical processor) /done
+maybe revert new processor /thats a big no old me
+
+fix metallurgic infuser rose quartz /done
+to refine 
+
+--------------------------------------------------------------------------
+might add new mods
+
+Chipped
+absent by design
+mcaw's
+powah?
+rats?
+pedestals?
+mob grinding utils?
+modular routers?
+mining gadgets?
+int dyn?
+ice and fire?
+env tech?
+Cyclic?
+Bees?
+compact machines?
+cable tiers?
+C&B?
+pneumatic craft?
+botany pots?
+PSI?
+dark utilities
+Valhelsia Structures /done
+
+--------------------------------------------------------------------------
+"magic" update
+
+blood magic /done
+botania /done
+mana and artifice 
+mahou tusukai /done
+forbidden /done
+natures aura? /done
+Astral Sorcery /done
+

@@ -1,0 +1,365 @@
+{
+	id: "14742A6D5BA90EA8",
+	group: "",
+	order_index: 0,
+	filename: "getting_started",
+	title: "Getting Started",
+	icon: {
+		id: "minecraft:stone_pickaxe",
+		Count: 1b,
+		tag: {
+			Damage: 0
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -2.0d,
+			y: -2.5d,
+			id: "3411EA17B52BE7E3",
+			tasks: [{
+				id: "19CDC1693144E09F",
+				type: "checkmark",
+				title: "Welcome"
+			}],
+			rewards: [
+				{
+					id: "7B3032EFBACFFB1D",
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: "4B41C29BEE44D63D",
+					type: "toast",
+					title: "It all starts here",
+					description: ""
+				},
+				{
+					id: "532C26B22871FD70",
+					type: "command",
+					auto: "no_toast",
+					command: "/say @p This is the start",
+					player_command: false
+				}
+			]
+		},
+		{
+			title: "It shall begin",
+			x: -2.0d,
+			y: -1.5d,
+			description: [
+				"There is progession, but first you got to do the thing called",
+				"",
+				'"mining"'
+			],
+			dependencies: ["3411EA17B52BE7E3"],
+			dependency_requirement: "all_started",
+			id: "47BB510BDEFC04AE",
+			tasks: [{
+				id: "543F7FD89F9FFEA4",
+				type: "item",
+				title: "Any #minecraft:logs",
+				icon: "minecraft:oak_log",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}],
+			rewards: [{
+				id: "6CE58E39481FD7EB",
+				type: "item",
+				item: "minecraft:oak_log",
+				count: 8
+			}]
+		},
+		{
+			icon: "tetra:basic_workbench",
+			x: -1.0d,
+			y: -1.5d,
+			description: [
+				"Tetra is your one and only tool mod",
+				"Use it, it can allow some cool tools along with multi tools"
+			],
+			dependencies: ["47BB510BDEFC04AE"],
+			dependency_requirement: "one_started",
+			id: "5B25ECB810D66338",
+			tasks: [{
+				id: "0825021238D70BA2",
+				type: "item",
+				item: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "8d56ff56-c40f-449a-9c51-16b7160731ab",
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}],
+			rewards: [{
+				id: "3ED007BBBDA8F7EE",
+				type: "item",
+				item: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "94830494-80e5-4d8f-9bf6-26bc1d680a1a",
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		},
+		{
+			title: "Sleep is overrated",
+			x: -3.0d,
+			y: -0.5d,
+			dependencies: ["47BB510BDEFC04AE"],
+			id: "3C0599F0A7E8A2C3",
+			tasks: [{
+				id: "6B1C110D1A06D7CC",
+				type: "item",
+				item: "minecraft:white_bed"
+			}],
+			rewards: [{
+				id: "0C88531D89DC9548",
+				type: "loot",
+				table_id: 1235350901938446744L
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			description: [
+				"Settings reminder:",
+				"Be sure to set all needed keybinds"
+			],
+			dependencies: ["47BB510BDEFC04AE"],
+			id: "538490CF26198C10",
+			tasks: [{
+				id: "51C534E3360E9E41",
+				type: "checkmark",
+				title: "Settings"
+			}],
+			rewards: [{
+				id: "66530871DAEDE1F6",
+				type: "loot",
+				table_id: 1235350901938446744L
+			}]
+		},
+		{
+			title: "Swing it",
+			icon: {
+				id: "minecraft:stone_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.0d,
+			y: 0.5d,
+			dependencies: [
+				"47BB510BDEFC04AE",
+				"3AB07ACFB5DC9BCA"
+			],
+			id: "021EF2549FD0190D",
+			tasks: [{
+				id: "3FA6F628174400E5",
+				type: "item",
+				title: "Any #forge:tools/pickaxes",
+				icon: {
+					id: "minecraft:stone_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:tools/pickaxes"
+					}
+				}
+			}],
+			rewards: [{
+				id: "1378FE0FDBFDE04F",
+				type: "random",
+				table_id: 1235350901938446744L
+			}]
+		},
+		{
+			title: "Crafting it up",
+			x: -2.0d,
+			y: -0.5d,
+			dependencies: ["47BB510BDEFC04AE"],
+			id: "3AB07ACFB5DC9BCA",
+			tasks: [{
+				id: "558515F34D116E8E",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: "06AA12B2EF97CA9C",
+				type: "random",
+				table_id: 1235350901938446744L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -0.5d,
+			dependencies: ["47BB510BDEFC04AE"],
+			id: "13727282075376D5",
+			tasks: [{
+				id: "43012D03F2D4E8DF",
+				type: "checkmark",
+				title: "Last checkbox I swear"
+			}],
+			rewards: [{
+				id: "58DE1FAAE93A2A78",
+				type: "loot",
+				table_id: 1235350901938446744L
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			description: [
+				"Tetra is your one and only tool mod",
+				"Use it, it can allow some cool tools along with multi tools"
+			],
+			dependencies: ["5B25ECB810D66338"],
+			id: "5D0F9616F4C0C871",
+			tasks: [{
+				id: "6D88E7957A6C7A94",
+				type: "checkmark",
+				title: "Tetra Time",
+				icon: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "d8e1a567-a9b2-47c6-9f5d-38fa8899213f",
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}]
+		},
+		{
+			title: "Combating early game hunger",
+			icon: "minecraft:golden_carrot",
+			x: -1.0d,
+			y: 1.5d,
+			dependencies: ["021EF2549FD0190D"],
+			id: "2AB09063107569A0",
+			tasks: [{
+				id: "127838FE2E6B20B0",
+				type: "item",
+				item: "minecraft:carrot",
+				count: 16L,
+				consume_items: true
+			}],
+			rewards: [{
+				id: "08989C2A52498495",
+				type: "item",
+				item: "minecraft:golden_carrot",
+				count: 16
+			}]
+		},
+		{
+			title: "Time to Farm?",
+			x: -2.0d,
+			y: 1.5d,
+			subtitle: "Did you finish your stone kit?",
+			description: [
+				"Did you just make this?",
+				"Well have a knife for that hoe"
+			],
+			dependencies: ["021EF2549FD0190D"],
+			id: "3DB5030ECF2BE9C0",
+			tasks: [{
+				id: "15AD5EFF15C9271E",
+				type: "item",
+				item: {
+					id: "minecraft:stone_hoe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				},
+				consume_items: true
+			}],
+			rewards: [{
+				id: "58BF78B8EBE618E8",
+				type: "item",
+				item: {
+					id: "farmersdelight:iron_knife",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -4.0d,
+			y: 0.5d,
+			id: "2146F36D248EBE7F",
+			tasks: [{
+				id: "18661F895B5457E5",
+				type: "biome",
+				title: "Find things is hard",
+				biome: "minecraft:forest"
+			}],
+			rewards: [{
+				id: "0D968C411DE2D3BA",
+				type: "item",
+				item: "forbidden_arcanus:yellow_orchid"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -0.5d,
+			description: [
+				"Sleep is not overated",
+				"Take this and use it"
+			],
+			dependencies: ["3C0599F0A7E8A2C3"],
+			id: "06292FAE1DDED565",
+			tasks: [{
+				id: "05C1B0FE2B0DDE2C",
+				type: "item",
+				item: "minecraft:phantom_membrane"
+			}],
+			rewards: [{
+				id: "02DB4C981E36BDEC",
+				type: "item",
+				item: {
+					id: "cyclic:sleeping_mat",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

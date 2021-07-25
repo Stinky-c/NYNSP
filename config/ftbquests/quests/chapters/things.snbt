@@ -1,0 +1,195 @@
+{
+	id: "18D8824D03F330CA",
+	group: "",
+	order_index: 3,
+	filename: "things",
+	title: "Things",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.0d,
+			y: 0.0d,
+			id: "4807491FE20ED1EE",
+			tasks: [{
+				id: "6404DD01288FED14",
+				type: "item",
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 0.0d,
+			dependencies: ["4807491FE20ED1EE"],
+			id: "5D483D4CEF277830",
+			tasks: [{
+				id: "4AC51D64F4F089AC",
+				type: "item",
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 0.0d,
+			dependencies: ["5D483D4CEF277830"],
+			id: "147FB7FCC3299CC7",
+			tasks: [{
+				id: "24CC19FE3BCF7C44",
+				type: "item",
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 0.0d,
+			dependencies: ["147FB7FCC3299CC7"],
+			id: "166C4891D14786AD",
+			tasks: [{
+				id: "4F428687D8D62F25",
+				type: "item",
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 0.0d,
+			dependencies: [
+				"166C4891D14786AD",
+				"5C79D2CCF4B590CE"
+			],
+			id: "239F475FF34730C7",
+			tasks: [{
+				id: "14C91241822FB14B",
+				type: "item",
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -1.0d,
+			id: "5C79D2CCF4B590CE",
+			tasks: [{
+				id: "2FC01DA5F85EA35A",
+				type: "item",
+				item: "minecraft:netherite_ingot"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: 1.0d,
+			id: "1A35367FCB2BE047",
+			tasks: [{
+				id: "0FB84EC19ECFBB4F",
+				type: "item",
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			dependencies: ["1A35367FCB2BE047"],
+			id: "558C48D20A6FC71D",
+			tasks: [{
+				id: "009628421A4CBA0E",
+				type: "item",
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 2.0d,
+			dependencies: ["1A35367FCB2BE047"],
+			id: "34293C517BA09DEB",
+			tasks: [{
+				id: "1DEEF52FD47299B0",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 2.0d,
+			dependencies: ["34293C517BA09DEB"],
+			id: "0729E70B7B003608",
+			tasks: [{
+				id: "076D541D15D9DCB8",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
+			dependencies: ["0729E70B7B003608"],
+			id: "0CC402757BD9524C",
+			tasks: [{
+				id: "405336979FBFED65",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 2.0d,
+			description: [
+				"That was expensive",
+				"Have this back"
+			],
+			dependencies: ["0CC402757BD9524C"],
+			id: "085AC4F9F1B07DC2",
+			tasks: [{
+				id: "30C6FE69D642B036",
+				type: "item",
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}],
+			rewards: [{
+				id: "34F834D2F8D92CB0",
+				type: "item",
+				item: "minecraft:netherite_block"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.0d,
+			dependencies: ["1A35367FCB2BE047"],
+			id: "4EB6D29A8E97CFB6",
+			tasks: [{
+				id: "1EDCA59B72182235",
+				type: "item",
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 1.0d,
+			dependencies: ["1A35367FCB2BE047"],
+			id: "7F303492D841596A",
+			tasks: [{
+				id: "3C1DBE44F2552532",
+				type: "item",
+				item: "sophisticatedbackpacks:crafting_upgrade"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: 1.0d,
+			dependencies: ["1A35367FCB2BE047"],
+			id: "7BE5C24A53D337FD",
+			tasks: [{
+				id: "6A26E420B31AD6A0",
+				type: "item",
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: 1.0d,
+			dependencies: ["1A35367FCB2BE047"],
+			id: "06BEA0A9F6DABB9A",
+			tasks: [{
+				id: "6FD42554277704A0",
+				type: "item",
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+		}
+	]
+}

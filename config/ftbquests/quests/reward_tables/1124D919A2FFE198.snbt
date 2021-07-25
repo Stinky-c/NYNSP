@@ -1,0 +1,124 @@
+{
+	id: "1124D919A2FFE198",
+	order_index: 0,
+	title: "Food",
+	loot_size: 1,
+	rewards: [
+		{
+			item: "farmersdelight:cake_slice",
+			count: 8
+		},
+		{
+			item: "farmersdelight:sweet_berry_cookie",
+			count: 16
+		},
+		{
+			item: {
+				id: "mekanism:canteen",
+				Count: 1b,
+				tag: {
+					mekData: {
+						GasTanks: [{
+							Tank: 0b,
+							stored: {
+								gasName: "mekanism:nutritional_paste",
+								amount: 6400L
+							}
+						}]
+					}
+				}
+			}
+		},
+		{
+			item: "create:blaze_cake"
+		},
+		{
+			item: "simplefarming:chocolate_cake"
+		},
+		{
+			item: "farmersdelight:shepherds_pie",
+			count: 2
+		},
+		{
+			item: "farmersdelight:steak_and_potatoes",
+			count: 2
+		},
+		{
+			item: "simplefarming:cheese_slice",
+			count: 16
+		},
+		{
+			item: "farmersdelight:melon_popsicle",
+			count: 8
+		},
+		{
+			item: "farmersdelight:squid_ink_pasta",
+			count: 2
+		},
+		{
+			item: "farmersdelight:hamburger",
+			count: 2
+		},
+		{
+			item: "minecraft:rotten_flesh",
+			count: 16
+		},
+		{
+			item: "farmersdelight:sweet_berry_cheesecake_slice",
+			count: 8
+		},
+		{
+			item: "farmersdelight:honey_glazed_ham_block"
+		},
+		{
+			item: "simplefarming:pizza",
+			count: 4
+		},
+		{
+			item: "simplefarming:chicken_parmesan",
+			count: 2
+		},
+		{
+			item: "farmersdelight:fruit_salad",
+			count: 4
+		},
+		{
+			item: "minecraft:cake"
+		},
+		{
+			item: "thermal:xp_stew"
+		},
+		{
+			item: "simplefarming:lasagna",
+			count: 2
+		},
+		{
+			item: "farmersdelight:smoked_ham",
+			count: 4
+		},
+		{
+			item: "simplefarming:sushi",
+			count: 8
+		},
+		{
+			item: "simplefarming:jaffa_cake",
+			count: 8
+		},
+		{
+			item: "minecraft:golden_carrot",
+			count: 4
+		},
+		{
+			item: "create:sweet_roll",
+			count: 8
+		},
+		{
+			item: "simplefarming:baked_sweet_potato",
+			count: 4
+		},
+		{
+			item: "simplefarming:candy",
+			count: 8
+		}
+	]
+}

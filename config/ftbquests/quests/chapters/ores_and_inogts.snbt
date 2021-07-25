@@ -1,0 +1,222 @@
+{
+	id: "77F879235EA309F7",
+	group: "",
+	order_index: 2,
+	filename: "ores_and_inogts",
+	title: "Ores and Inogts",
+	icon: "minecraft:iron_ore",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.5d,
+			y: -1.0d,
+			dependencies: ["0AD5E6A9676E66C9"],
+			id: "256B382C2C241F95",
+			tasks: [{
+				id: "14E4A6F4156CC92A",
+				type: "item",
+				item: "minecraft:iron_ore"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -1.0d,
+			dependencies: ["0AD5E6A9676E66C9"],
+			id: "2439980A4E95E5B1",
+			tasks: [{
+				id: "3774645195E40EE6",
+				type: "item",
+				item: "minecraft:gold_ore"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: -1.0d,
+			dependencies: ["0AD5E6A9676E66C9"],
+			id: "667F9DD10FFCFDC5",
+			tasks: [{
+				id: "3EDBBAD3934961BE",
+				type: "item",
+				item: "minecraft:diamond_ore"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.0d,
+			dependencies: ["5AAC1F2717BEFEB4"],
+			id: "48F03550E564C938",
+			tasks: [{
+				id: "7ADCE0E1D2A6C909",
+				type: "item",
+				item: "create:copper_ore"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.0d,
+			dependencies: ["5AAC1F2717BEFEB4"],
+			id: "57AB19034E11C3FB",
+			tasks: [{
+				id: "33EFB136B042B749",
+				type: "item",
+				item: "create:zinc_ore"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.0d,
+			dependencies: ["56B8F487C48C88E9"],
+			id: "3A088AB8B6CE5411",
+			tasks: [{
+				id: "02F9FD20DD69138C",
+				type: "item",
+				item: "mekanism:osmium_ore"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 1.0d,
+			dependencies: ["56B8F487C48C88E9"],
+			id: "694688E0F2358F85",
+			tasks: [{
+				id: "3E98ABF8417F7086",
+				type: "item",
+				item: "mekanism:lead_ore"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.0d,
+			dependencies: ["56B8F487C48C88E9"],
+			id: "5C7D9409670FED9E",
+			tasks: [{
+				id: "4053E0E7793719AA",
+				type: "item",
+				item: "mekanism:tin_ore"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.0d,
+			dependencies: ["56B8F487C48C88E9"],
+			id: "6822375AD4D2A8AE",
+			tasks: [{
+				id: "0C85FAF046C244AB",
+				type: "item",
+				item: "mekanism:uranium_ore"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 2.0d,
+			dependencies: ["219A5F28223A4569"],
+			id: "1A02AEEF8814B509",
+			tasks: [{
+				id: "4CFE8C983C052821",
+				type: "item",
+				item: "thermal:silver_ore"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 2.0d,
+			dependencies: ["219A5F28223A4569"],
+			id: "48F28C3002B2F8C0",
+			tasks: [{
+				id: "023CDFBB4DACAE57",
+				type: "item",
+				item: "thermal:nickel_ore"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 3.0d,
+			dependencies: ["5005CED8EB0277AC"],
+			id: "335BC21E2C76F166",
+			tasks: [{
+				id: "60DD46946EEC7E02",
+				type: "item",
+				item: "immersiveengineering:ore_aluminum"
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.0d,
+			dependencies: ["56B8F487C48C88E9"],
+			id: "3F26D55C4E42555B",
+			tasks: [{
+				id: "2451FF8FF9BBB995",
+				type: "item",
+				item: "create:copper_ore"
+			}]
+		},
+		{
+			icon: "mekanism:steel_casing",
+			x: -2.5d,
+			y: 1.0d,
+			id: "56B8F487C48C88E9",
+			tasks: [{
+				id: "535663C7406FB26D",
+				type: "checkmark",
+				title: "Mekanism ores"
+			}]
+		},
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.5d,
+			y: -1.0d,
+			dependency_requirement: "one_completed",
+			id: "0AD5E6A9676E66C9",
+			tasks: [{
+				id: "0E40453CC857BAA7",
+				type: "checkmark",
+				title: "Vanilla ores"
+			}]
+		},
+		{
+			icon: "create:andesite_casing",
+			x: -2.5d,
+			y: 0.0d,
+			id: "5AAC1F2717BEFEB4",
+			tasks: [{
+				id: "0682C54EEC87B926",
+				type: "checkmark",
+				title: "Create ores"
+			}]
+		},
+		{
+			icon: "thermal:machine_frame",
+			x: -2.5d,
+			y: 2.0d,
+			id: "219A5F28223A4569",
+			tasks: [{
+				id: "4EDFF4449CFDF507",
+				type: "checkmark",
+				title: "Thermal ores"
+			}]
+		},
+		{
+			icon: {
+				id: "immersiveengineering:hammer",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -2.5d,
+			y: 3.0d,
+			id: "5005CED8EB0277AC",
+			tasks: [{
+				id: "2D272AE13C3B48FD",
+				type: "checkmark",
+				title: "Immersive Engineering ores"
+			}]
+		}
+	]
+}

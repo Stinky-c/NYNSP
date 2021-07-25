@@ -1,0 +1,7 @@
+{
+  "variants": {
+	"": [
+            { "model": "kubejs:block/fortified_sandesite", "weight": 4 }
+        ]
+    }
+  }

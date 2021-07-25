@@ -1,0 +1,49 @@
+
+// priority: 99
+
+onEvent('recipes',event =>{
+     //smelting
+    function multiSmelt (output, input) {
+        event.smelting(output, input).xp(1.0)
+        event.blasting(output, input).xp(1.0)
+    }
+    function smelt ( output, input, xp){
+        event.smelting(output,input).xp(xp).id('kjs_' + output)
+      }
+    
+    //shaped
+    function modifyShaped (result, count, pattern, ingridients) {
+        event.remove({
+            output: result,
+            type: 'minecraft:crafting_shaped'
+        })
+        event.shaped(item.of(result, count),
+            pattern,
+            ingridients
+        ).id(`kjs_` + result)
+    }
+
+    function shaped (result, count, pattern, ingridients) {
+        event.shaped(item.of(result, count),
+            pattern,
+            ingridients
+        ).id(`kjs_` + result)
+    }
+
+        //shapeless
+    function modifyShapeless (result, count, ingridients) {
+        event.remove({
+             output: result,
+            type: 'minecraft:crafting_shapeless'
+            })
+            event.shapeless(item.of(result, count),
+                ingridients
+            ).id(`kjs_` + result)
+    }
+    function shapeless  (result, count, ingridients) {
+        event.shapeless(item.of(result, count),
+            ingridients
+            ).id(`kjs_` + result)
+    }
+
+})

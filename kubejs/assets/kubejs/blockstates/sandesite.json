@@ -1,0 +1,7 @@
+{
+  "variants": {
+	"": [
+            { "model": "kubejs:block/sandesite", "weight": 4 }
+        ]
+    }
+}
