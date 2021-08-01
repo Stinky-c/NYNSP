@@ -9,7 +9,7 @@ Links:
 
 If you would like to contribute to this pack some file locations to help would be
 
-1. FTB Quests(creating or loot tables): /configs/ftbquests
+1. FTB Quests(creating or loot tables): `/configs/ftbquests`
 1. KubeJS scripts:
     1. Server (recipe and other simple changes): `/kubejs/server_scripts` 
     1. World startup(creating items): `/kubejs/startup_scripts` 
