@@ -18,7 +18,8 @@ onEvent('recipes',event =>{
         ).id(`kjs_` + result)
     }
 
-    const {mixing,filling,mechanical_crafting,splashing}= event.recipes.create
+    const {mixing,filling,mechanical_crafting,splashing} = event.recipes.create
+    const {combining} = event.recipes.mekanism
     //recipes
     event.replaceInput({mod: 'appliedenergistics2'}, '#forge:ingots/iron', '#forge:ingots/steel')
     event.replaceInput({},'appliedenergistics2:formation_core', 'refinedstorage:construction_core')
@@ -61,33 +62,6 @@ onEvent('recipes',event =>{
     })
 
     mixing('1x appliedenergistics2:quartz_glass', ['#forge:glass', '#forge:dusts/quartz']).heated().id('kjs_appliedenergistics2:quartz_glass')
-    
-    modifyShaped('appliedenergistics2:annihilation_core',2,[
-        'SCS',
-        'QDI',
-        'SFS'
-    ], {
-        S: '#forge:ingots/steel',
-        Q: '#appliedenergistics2:crystals/nether',
-        D: 'refinedstorage:destruction_core',
-        I: 'refinedstorage:improved_processor',
-        F: '#forge:dusts/fluix',
-        C: 'mekanism:advanced_control_circuit'
-    })
-
-    modifyShaped('appliedenergistics2:formation_core',2,[
-        'SCS',
-        'QDI',
-        'SFS'
-    ], {
-        S: '#forge:ingots/steel',
-        Q: '#appliedenergistics2:crystals/nether',
-        D: 'refinedstorage:construction_core',
-        I: 'refinedstorage:improved_processor',
-        F: '#forge:dusts/fluix',
-        C: 'mekanism:advanced_control_circuit'
-    })
-    
-    event.recipes.mekanism.combining('appliedenergistics2:fluix_covered_cable', 'appliedenergistics2:fluix_glass_cable', 'thermal:cured_rubber').id('kjs_appliedenergistics2:covered_cable')
+    combining('appliedenergistics2:fluix_covered_cable', 'appliedenergistics2:fluix_glass_cable', 'thermal:cured_rubber').id('kjs_appliedenergistics2:covered_cable')
     mixing('3x appliedenergistics2:sky_dust', ['#forge:dusts/coal', '#forge:dusts/coal', '#forge:dusts/diamond']).id('kjs_appliedenergistics2:sky_dust')
 })

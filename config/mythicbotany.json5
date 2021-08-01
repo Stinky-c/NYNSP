@@ -6,6 +6,9 @@
   // Whether to replace the recipe for the Gaia Pylon with a recipe that requires Alfsteel.
   "replaceGaiaRecipe": false,
   
+  // Whether rituals and infusions that are cancelled will drop solidified mana that can be used to get the mana back.
+  "solidified_mana": true,
+  
   "alftools": {
   
     // Jump boost modifier for the alfsteel boots
@@ -87,12 +90,17 @@
     "ranged_cooldown": 120,
     
     // What is required for a player to hold mjoellnir.
-    // none   - Players will always be able to hold mjoellnir.
-    // effect - Players need the absorption effect to hold mjoellnir.
-    // hearts - Players need absorption hearts to hold mjoellnir.
-    //          If they run out of golden hearts but still have the effect, mjoellnir is dropped.
+    // nothing  - Players will always be able to hold mjoellnir.
+    // effect   - Players need the absorption effect to hold mjoellnir.
+    // hearts   - Players need absorption hearts to hold mjoellnir.
+    //            If they run out of golden hearts but still have the effect, mjoellnir is dropped.
     // Allowed values: nothing, effect, hearts
     "requirement": "effect",
+    
+    // What is required for a player that holds the ring of thor to hold mjoellnir.
+    // If a player holds the ring of thor, this OR `mjoellnir.requirement` must be met.
+    // Allowed values: nothing, effect, hearts
+    "requirement_thor": "nothing",
     
     // The chance for secondary targets to get lightning effects  applied as well on ranged attacks.
     // Range: 0.0 - 1.0

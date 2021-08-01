@@ -6,6 +6,8 @@
 	"Replace stems" = false
 	#Indicates whether cantaloupe, honeydew, and squash crops should grow like vanilla pumpkin and melon crops (Default: true)
 	"Vanilla stem crops" = true
+	#Indicates whether nausea should be a potential effect from alcohol consumption (Default: false)
+	"Nausea effect" = false
 	#Configures if double crops (i.e. corn, sorghum, kenaf) slow down living entities (Default: false)
 	"Double Crops Slow Down Motion" = false
 

@@ -62,7 +62,7 @@ onEvent('recipes',event =>{
         S:'#forge:ingots/steel',
         I:'mekanism:shard_uranium'
     })
-    modifyShaped('mekanismgenerators:fission_reactor_casing',1,[
+    modifyShaped('mekanismgenerators:fission_reactor_casing',4,[
         'SLS',
         'LCL',
         'SLS'

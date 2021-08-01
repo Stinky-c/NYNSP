@@ -30,8 +30,6 @@
 	percent_loss_on_death = 0
 	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
 	graves_bypass_griefing_rules = true
-	#Enables PvP mode, which allows players to open graves of players they kill [false/true|default:false]
-	pvp_mode = false
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
@@ -85,8 +83,6 @@
 	#Cooldown in minutes to use the perk Tomb Raider [0..1440|default:0]
 	#Range: 0 ~ 1440
 	cooldown_tomb_raiding = 60
-	#The Halloween features also happen outside the dates of the event [false/true|default:false]
-	persistant_halloween = false
 	#Whether to cancel the Ghostly Shape effect on breaking a block or opening a chest [false/true|default:false]
 	nerf_ghostly_shape = false
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
@@ -140,8 +136,6 @@
 	can_replace_grave_plate = true
 	#The structures that can't be discovered by lost tablets
 	lost_tablet_denied_structures = []
-	#Allows the purification effect to clear neutral effects [false/true|default:true]
-	purification_affect_neutral_effects = true
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
 	chance_pray_reward = 40
@@ -172,7 +166,7 @@
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
-	#Restricts the effect of Shadow Step to players [false/true|default:true]
+	#Restricts the effect of Shadow Step to players [false/true|default:false]
 	restrict_shadow_step_to_player = true
 
 #Options related to the command recovery and auto-save of players
@@ -192,8 +186,6 @@
 
 #Allows to change the chance to drop some items
 [loot]
-	#Allows the undeads to have a low chance to drop their skull [false/true|default:true]
-	undead_can_drop_skull = true
 	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_random_scroll_on_boss = 100
@@ -216,9 +208,9 @@
 	#Chance on 1000 to receive a familiar receptacle on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
 	chance_familiar_receptacle_on_boss = 100
-	#Minimum life for an undead to be considered as a boss for drop [10..1000|default:100]
-	#Range: > 10
-	undead_boss_life_for_drop = 100
+	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
+	#Range: > 200
+	undead_boss_life_for_drop = 200
 
 #Allows to enable some features related to others mods
 [compatibility]

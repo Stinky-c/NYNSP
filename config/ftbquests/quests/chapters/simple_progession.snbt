@@ -277,6 +277,55 @@
 				type: "item",
 				item: "astralsorcery:wand"
 			}]
+		},
+		{
+			x: 15.0d,
+			y: 5.0d,
+			dependencies: ["42FD5915B22D41E1"],
+			id: "7A8F6C518971DB10",
+			tasks: [{
+				id: "2E16B99F50F8C496",
+				type: "item",
+				item: {
+					id: "create:sand_paper",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "011FDC7403F2FC92",
+				type: "item",
+				item: {
+					id: "create:sand_paper",
+					Count: 1b,
+					tag: {
+						AS_Amulet_Holder: [I;
+							426637396,
+							1558333407,
+							-1829425942,
+							2084083085
+						],
+						Damage: 0,
+						Enchantments: [{
+							lvl: 3s,
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		},
+		{
+			x: 15.0d,
+			y: 6.0d,
+			dependencies: ["7A8F6C518971DB10"],
+			id: "793164ADF78BD52B",
+			tasks: [{
+				id: "4483481A3C5B65BC",
+				type: "item",
+				item: "create:electron_tube"
+			}]
 		}
 	]
 }

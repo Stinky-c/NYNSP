@@ -42,3 +42,7 @@ const infuser = (input,infuseInput,infuseAmount,output) => {
           'output':{'item':output}
         })
       }})
+
+ function sequenced_assembly_test (output, input,sequence, transItem, loops,id){
+        sequenced_assembly_test([output],input,[sequence].transitionalItem(transItem).loops(loops).id(id))
+      }
