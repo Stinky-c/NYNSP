@@ -1,4 +1,5 @@
 # NYNSP - Not Your Normal Stoical Pack
+![background](/background.png)
 A minecraft modpack by Bucky
 
 Links:
@@ -19,3 +20,4 @@ If you would like to contribute to this pack some file locations to help would b
 
 If you have any tips on how I can improve this pack please reach out to me
 Names could be a good thing to help me with
+
