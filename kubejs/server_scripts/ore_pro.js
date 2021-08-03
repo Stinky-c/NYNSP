@@ -1,5 +1,5 @@
 onEvent('recipes',event =>{
-
+    //function
     const {filling,sequenced_assembly,deploying,cutting}= event.recipes.create
     function ore_processing (ore,ingot,id){
     sequenced_assembly([Item.of(ingot, 32).withChance(100.0)],ore,[
@@ -12,6 +12,7 @@ onEvent('recipes',event =>{
         cutting('minecraft:iron_ore','minecraft:iron_ingot').processingTime(60),
     ]).transitionalItem('kubejs:test_item').id('kjs_' + id + '/custom_processing').loops(1)
     }
+    //ore processing
         ore_processing('#forge:ores/gold','minecraft:gold_ingot','minecraft:gold')
         ore_processing('mekanism:lead_ore','mekanism:ingot_lead','mekanism:lead')
         ore_processing('create:zinc_ore','create:zinc_ingot','create:zinc')
