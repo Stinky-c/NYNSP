@@ -10,7 +10,7 @@ onEvent('recipes',event =>{
         filling('minecraft:iron_ore',['minecraft:iron_ore',fluid.of('create:chocolate',100)]),
         filling('minecraft:iron_ore',['minecraft:iron_ore',fluid.of('thermal:refined_fuel',100)]),
         cutting('minecraft:iron_ore','minecraft:iron_ingot').processingTime(60),
-    ]).transitionalItem('kubejs:test_item').id('kjs_' + id + '/custom_processing').loops(1)
+    ]).transitionalItem('kubejs:ore_processing').id('kjs_' + id + '/custom_processing').loops(1)
     }
     //ore processing
         ore_processing('#forge:ores/gold','minecraft:gold_ingot','minecraft:gold')

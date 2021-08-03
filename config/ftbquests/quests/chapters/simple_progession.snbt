@@ -8,7 +8,7 @@
 	default_quest_shape: "",
 	quests: [
 		{
-			x: 11.5d,
+			x: 11.0d,
 			y: 4.0d,
 			id: "491FA552FB00C776",
 			tasks: [{
@@ -28,7 +28,7 @@
 			}]
 		},
 		{
-			x: 11.5d,
+			x: 11.0d,
 			y: 5.0d,
 			dependencies: ["491FA552FB00C776"],
 			id: "724C7406563F2E24",
@@ -39,7 +39,7 @@
 			}]
 		},
 		{
-			x: 11.5d,
+			x: 11.0d,
 			y: 6.0d,
 			dependencies: ["724C7406563F2E24"],
 			id: "2C74321F461B0CAD",
@@ -51,7 +51,7 @@
 		},
 		{
 			title: "Simple Runes",
-			x: 11.5d,
+			x: 11.0d,
 			y: 7.0d,
 			dependencies: ["2C74321F461B0CAD"],
 			id: "26E3975413AA9F2F",
@@ -85,7 +85,7 @@
 			]
 		},
 		{
-			x: 11.5d,
+			x: 11.0d,
 			y: 8.0d,
 			dependencies: ["26E3975413AA9F2F"],
 			id: "447F23E5A3A30300",
@@ -190,7 +190,7 @@
 			]
 		},
 		{
-			x: 10.5d,
+			x: 10.0d,
 			y: 8.0d,
 			dependencies: [
 				"31F0CE49DAC935AB",
@@ -215,7 +215,7 @@
 			}]
 		},
 		{
-			x: 10.5d,
+			x: 10.0d,
 			y: 9.0d,
 			dependencies: ["447F23E5A3A30300"],
 			id: "36944E1AD9F68157",
@@ -251,7 +251,7 @@
 			}]
 		},
 		{
-			x: 9.5d,
+			x: 9.0d,
 			y: 9.0d,
 			dependencies: ["36944E1AD9F68157"],
 			id: "50EBED39EA423759",
@@ -268,7 +268,7 @@
 			}]
 		},
 		{
-			x: 11.5d,
+			x: 11.0d,
 			y: 9.0d,
 			dependencies: ["447F23E5A3A30300"],
 			id: "66E5187C196DA577",

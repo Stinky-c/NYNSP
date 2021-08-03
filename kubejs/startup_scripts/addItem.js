@@ -9,7 +9,7 @@ onEvent('item.registry', event => {
 	event.create('iron_nuggie').displayName('Iron Nuggie').tooltip('Used in Refined Storage creative grids').tooltip('Can only be made in the Ultimate Infusing Factory')
 	event.create('elite_resonating_radiant_control_circuit').displayName('Elite Resonating Radiant Control Circuit ').glow(true)
 	event.create('prepared_dielectric_paste').displayName('Prepared Dielectric Paste').tooltip('Fill with lava to complete')
-	event.create('test_item').type('create:sequenced_assembly').displayName('test_item')
+	event.create('ore_processing').type('create:sequenced_assembly').displayName('Ore Processing').tooltip('Used to display custom ore processing')
 	event.create('test_item_2').displayName('test_item_2')
 	event.create('refined_blank_core').type('create:sequenced_assembly').displayName('Refined Blank Core')
 	//event.create('sandesite').displayName('Sandesite')
